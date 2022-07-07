@@ -4,6 +4,8 @@
   box-sizing: border-box;
 }
 
+/* ---------------------- Nav -------------------------- */
+
 .Header {
   width: 100%;
   height: 100vh;
@@ -18,7 +20,7 @@
 }
 
 .Nav-ul {
-  width: 1000px;
+  width: 900px;
   height: 100px;
   display: flex;
   justify-content: space-between;
@@ -32,10 +34,50 @@
 .Nav-Link {
   text-decoration: none;
   color: #fff;
+  font-size: 20px;
+  font-weight: 600;
 }
 
 .Nav-li-Resume {
   border: 2px solid #fff;
+  padding: 10px 20px;
+  border-radius: 6px;
+}
+
+/* ---------------------- Header -------------------------- */
+
+.header-Profile {
+  width: 100%;
+
+  padding: 100px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.profile-Info {
+  width: 1000px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+.info-Name {
+  font-size: 120px;
+  font-weight: 900;
+}
+
+.info-Description {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.btnHireMe {
+  text-decoration: none;
+  font-size: 20px;
+  color: #21acf8;
+  background-color: #fff;
   padding: 10px 20px;
   border-radius: 6px;
 }
