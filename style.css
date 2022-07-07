@@ -4,5 +4,38 @@
   box-sizing: border-box;
 }
 
-body {
+.Header {
+  width: 100%;
+  height: 100vh;
+  background-color: #21acf8;
+  color: #fff;
+}
+
+.header-Nav {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.Nav-ul {
+  width: 1000px;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Nav-li {
+  list-style: none;
+}
+
+.Nav-Link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.Nav-li-Resume {
+  border: 2px solid #fff;
+  padding: 10px 20px;
+  border-radius: 6px;
 }
