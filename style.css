@@ -28,6 +28,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 0 20px;
 }
 
 .Nav-li {
@@ -52,7 +53,7 @@ body {
 .header-Profile {
   width: 100%;
 
-  padding: 100px 20px;
+  padding: 100px 0;
   display: flex;
   justify-content: center;
 }
@@ -64,6 +65,7 @@ body {
   flex-direction: column;
   align-items: center;
   gap: 40px;
+  margin: 0 20px;
 }
 
 .info-Name {
