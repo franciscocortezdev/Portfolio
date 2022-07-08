@@ -76,8 +76,20 @@
 .btnHireMe {
   text-decoration: none;
   font-size: 20px;
+  font-weight: 600;
   color: #21acf8;
   background-color: #fff;
   padding: 10px 20px;
   border-radius: 6px;
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+
+#emailIcon {
+  font-size: 25px;
+}
+
+.socialNetworks {
+  font-size: 50px;
 }
