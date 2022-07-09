@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap");
+
 * {
   padding: 0;
   margin: 0;
@@ -7,6 +9,7 @@
 body {
   background-color: #21acf8;
   color: #fff;
+  font-family: "Poppins", sans-serif;
 }
 
 /* ---------------------- Nav -------------------------- */
@@ -69,8 +72,8 @@ body {
 }
 
 .info-Name {
-  font-size: 120px;
-  font-weight: 900;
+  font-size: 100px;
+  font-weight: 700;
 }
 
 .info-Description {
@@ -122,13 +125,13 @@ body {
 
 .sectionTitle::after {
   content: "";
-  display: block;
+
   background-color: #fff;
   height: 4px;
-  width: calc(100% - 260px);
+  width: calc(100% - 300px);
   position: absolute;
   top: 50%;
-  left: 260px;
+  left: 300px;
 }
 
 .aboutContainer {
@@ -146,7 +149,7 @@ body {
 
 .aboutParagraph {
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 1.5;
 }
 
