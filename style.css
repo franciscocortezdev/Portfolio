@@ -294,6 +294,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+  align-items: center;
 }
 
 .skillsItem:nth-child(1) {
@@ -302,4 +303,9 @@ body {
 
 #skillIcon {
   font-size: 100px;
+}
+.skillIcon {
+  width: 100px;
+  height: 100px;
+  padding: 8px;
 }
