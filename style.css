@@ -251,3 +251,36 @@ body {
 #projectBtnIcon {
   font-size: 25px;
 }
+
+/* ---------------------- Skills -------------------------- */
+
+.skills {
+  max-width: 1000px;
+  padding: 100px 0;
+  margin: 0 20px;
+}
+
+.skillsTitle {
+  position: relative;
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+.skillsTitle::after {
+  content: "";
+
+  background-color: #fff;
+  height: 4px;
+  width: calc(100% - 260px);
+  position: absolute;
+  top: 50%;
+  left: 260px;
+}
+
+.skillsContainer {
+  display: flex;
+}
+
+.skillsItem {
+  width: 200px;
+}
