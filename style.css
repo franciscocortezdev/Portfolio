@@ -169,3 +169,85 @@ body {
 }
 
 /* ---------------------- Projects -------------------------- */
+
+.projects {
+  max-width: 1000px;
+  padding: 100px 0;
+  margin: 0 20px;
+}
+
+.projectsTitle {
+  position: relative;
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+.projectsTitle::after {
+  content: "";
+
+  background-color: #fff;
+  height: 4px;
+  width: calc(100% - 260px);
+  position: absolute;
+  top: 50%;
+  left: 260px;
+}
+
+.projectsContainer {
+  display: flex;
+
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  margin-top: 60px;
+}
+
+.projectItem {
+  width: 48%;
+}
+
+.projectItem:nth-child(1) {
+  margin-bottom: 40px;
+}
+
+.projectName {
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.projectIMG {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.projectDescription {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.5;
+
+  margin-bottom: 20px;
+}
+
+.projectBtns {
+  display: flex;
+  gap: 20px;
+}
+
+.btnProject {
+  text-decoration: none;
+  color: #21acf8;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 6px 20px;
+  background-color: #fff;
+  border-radius: 6px;
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+
+#projectBtnIcon {
+  font-size: 25px;
+}
