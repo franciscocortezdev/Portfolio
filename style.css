@@ -104,6 +104,11 @@ body {
 
 /* ---------------------- About -------------------------- */
 
+.main {
+  display: grid;
+  place-content: center;
+}
+
 .about {
   max-width: 1000px;
   padding: 100px 0;
@@ -246,10 +251,7 @@ body {
 }
 
 /* ---------------------- Skills -------------------------- */
-.main {
-  display: grid;
-  place-content: center;
-}
+
 .skills {
   max-width: 1000px;
 
@@ -308,4 +310,51 @@ body {
   width: 100px;
   height: 100px;
   padding: 8px;
+}
+
+/* ---------------------- Education -------------------------- */
+
+.education {
+  max-width: 1000px;
+
+  padding: 100px 0;
+  margin: 0 20px;
+}
+
+.educationTitle {
+  position: relative;
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+.educationTitle::after {
+  content: "";
+
+  background-color: #fff;
+  height: 4px;
+  width: calc(100% - 330px);
+  position: absolute;
+  top: 50%;
+  left: 330px;
+}
+
+.educationName {
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.educationParagraph {
+  font-size: 20px;
+}
+
+.educationDate {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.educationItem {
+  margin-bottom: 40px;
+  display: grid;
+  gap: 10px;
 }
