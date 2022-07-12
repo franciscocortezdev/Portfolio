@@ -366,3 +366,29 @@ body {
   border-radius: 8px;
   overflow: hidden;
 }
+
+/* ---------------------- Education -------------------------- */
+
+.contact {
+  max-width: 1000px;
+
+  padding: 100px 0;
+  margin: 0 20px;
+}
+
+.contactTitle {
+  position: relative;
+  font-size: 60px;
+  margin-bottom: 40px;
+}
+
+.contactTitle::after {
+  content: "";
+
+  background-color: #fff;
+  height: 4px;
+  width: calc(100% - 370px);
+  position: absolute;
+  top: 50%;
+  left: 370px;
+}
