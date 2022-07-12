@@ -393,23 +393,39 @@ body {
   left: 370px;
 }
 
+.contactContainer {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
 .contactForm {
-  width: 75%;
+  width: 50%;
   display: flex;
   gap: 20px;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 
-.contactFormName {
-  width: 47%;
+.socialEmailTitle,
+.socialNetworksTitle {
+  font-size: 30px;
+  font-weight: 600;
 }
 
-.contactFormEmail {
-  width: 47%;
+.socialEmail {
+  font-size: 25px;
+  font-weight: 500;
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  margin-bottom: 20px;
+}
+.contactIcons {
+  display: flex;
+  gap: 10px;
 }
 
-.contactFormSubject,
-.contactFormMessage {
-  width: 100%;
+#ContactIcon {
+  font-size: 40px;
 }
