@@ -472,9 +472,13 @@ body {
   height: 100px;
   resize: none;
   width: 100%;
+  font-family: "Poppins", sans-serif;
 }
 
 .contactFormBtn {
   align-self: center;
   padding: 10px 16px;
+}
+.emailBtn {
+  display: none;
 }
