@@ -255,18 +255,22 @@
               <a href="mailto:franciscocortezdev@gmail.com" class="socialEmail">franciscocortezdev@gmail.com</a>
               <p class="socialNetworksTitle">Social Networks:</p>
               <div class="contactIcons">
-                <i id="ContactIcon" class='bx bxl-github'></i>
-                <i id="ContactIcon" class='bx bxl-linkedin-square'></i>
+                <a target="_blank"  href="https://github.com/franciscocortezdev">
+                  <i id="ContactIcon" class='bx bxl-github'></i>
+                </a>
+                <a target="_blank" href="https://www.linkedin.com/in/franciscocortezdev/">
+                  <i id="ContactIcon" class='bx bxl-linkedin-square'></i>
+                </a>
               </div>
             </div>
             
             <form class="contactForm">
               <div class="contactFormHead">
-                <input type="text" class="contactFormName" placeholder="Name">
-                <input type="email" class="contactFormEmail" placeholder="Email">
+                <input required="true" type="text" class="contactFormName" placeholder="Name">
+                <input required="true" type="email" class="contactFormEmail" placeholder="Email">
               </div>
-              <input type="text" class="contactFormSubject" placeholder="Subject">
-              <textarea  class="contactFormMessage" placeholder="Message"></textarea>
+              <input required="true" type="text" class="contactFormSubject" placeholder="Subject">
+              <textarea required="true"  class="contactFormMessage" placeholder="Message"></textarea>
               <button class="contactFormBtn">Send Message</button>
   
             </form>

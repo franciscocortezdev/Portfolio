@@ -420,6 +420,7 @@ body {
 
 #ContactIcon {
   font-size: 40px;
+  color: #fff;
 }
 .contactSocial {
   width: 50%;
@@ -444,10 +445,6 @@ body {
   width: 60%;
 }
 
-.contactFormBtn {
-  align-self: center;
-}
-
 .contactFormName,
 .contactFormEmail,
 .contactFormSubject,
@@ -469,4 +466,15 @@ body {
 .contactFormMessage::placeholder,
 .contactFormBtn::placeholder {
   color: #21acf8;
+}
+
+.contactFormMessage {
+  height: 100px;
+  resize: none;
+  width: 100%;
+}
+
+.contactFormBtn {
+  align-self: center;
+  padding: 10px 16px;
 }
