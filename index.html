@@ -8,6 +8,8 @@
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="style.css">
     <script defer src="code.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js">
+    </script>
     <title>Francisco Cortez</title>
 </head>
 
@@ -247,7 +249,26 @@
 
         <section class="contact" id="contact">
           <p class="contactTitle">Contact Me</p>
+          <div class="contactContainer">
+            <form class="contactForm">
+              <input type="text" class="contactFormName" placeholder="Name">
+              <input type="email" class="contactFormEmail" placeholder="Email">
+              <input type="text" class="contactFormSubject" placeholder="Subject">
+              <textarea class="contactFormMessage" placeholder="Message"></textarea>
+              <button class="contactFormBtn">Send Message</button>
+  
+            </form>
+            <div class="contactSocial">
+              <p>Email:</p>
+              <p> franciscocortezdev@gmail.com </p>
+              <p>social networks:</p>
+              <div class="contactIcons">
+                <i class='bx bxl-github'></i>
+                <i class='bx bxl-linkedin-square'></i>
+              </div>
+            </div>
 
+          </div>
         </section>
 
     </main>

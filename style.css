@@ -367,7 +367,7 @@ body {
   overflow: hidden;
 }
 
-/* ---------------------- Education -------------------------- */
+/* ---------------------- Contact -------------------------- */
 
 .contact {
   max-width: 1000px;
@@ -391,4 +391,25 @@ body {
   position: absolute;
   top: 50%;
   left: 370px;
+}
+
+.contactForm {
+  width: 75%;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.contactFormName {
+  width: 47%;
+}
+
+.contactFormEmail {
+  width: 47%;
+}
+
+.contactFormSubject,
+.contactFormMessage {
+  width: 100%;
 }
