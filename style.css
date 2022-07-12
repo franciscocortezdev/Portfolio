@@ -399,14 +399,6 @@ body {
   gap: 20px;
 }
 
-.contactForm {
-  width: 50%;
-  display: flex;
-  gap: 20px;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
 .socialEmailTitle,
 .socialNetworksTitle {
   font-size: 30px;
@@ -428,4 +420,53 @@ body {
 
 #ContactIcon {
   font-size: 40px;
+}
+.contactSocial {
+  width: 50%;
+}
+.contactForm {
+  width: 50%;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+
+.contactFormHead {
+  width: 100%;
+  display: flex;
+  gap: 10px;
+}
+.contactFormName {
+  width: 40%;
+}
+
+.contactFormEmail {
+  width: 60%;
+}
+
+.contactFormBtn {
+  align-self: center;
+}
+
+.contactFormName,
+.contactFormEmail,
+.contactFormSubject,
+.contactFormMessage,
+.contactFormBtn {
+  font-size: 20px;
+  font-weight: 600;
+  padding: 4px 10px;
+  border-radius: 6px;
+  background-color: #fff;
+  color: #21acf8;
+  border: none;
+  outline: none;
+}
+
+.contactFormName::placeholder,
+.contactFormEmail::placeholder,
+.contactFormSubject::placeholder,
+.contactFormMessage::placeholder,
+.contactFormBtn::placeholder {
+  color: #21acf8;
 }
