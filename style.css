@@ -23,6 +23,9 @@ body {
   width: 100%;
   display: flex;
   justify-content: center;
+  position: fixed;
+  backdrop-filter: blur(8px);
+  z-index: 100;
 }
 
 .Nav-ul {
@@ -56,7 +59,7 @@ body {
 .header-Profile {
   width: 100%;
 
-  padding: 100px 0;
+  padding: 200px 0 100px;
   display: flex;
   justify-content: center;
 }
@@ -100,6 +103,10 @@ body {
 
 .socialNetworks {
   font-size: 50px;
+}
+.socialIconLink {
+  text-decoration: none;
+  color: #fff;
 }
 
 /* ---------------------- About -------------------------- */
