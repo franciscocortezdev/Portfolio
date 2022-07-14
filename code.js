@@ -12,3 +12,13 @@ form.addEventListener('submit', (e) => {
 })
 
 
+window.addEventListener('scroll',()=>{
+  
+  if(window.scrollY > 100){
+    labelDown.style.display = 'none'
+  }
+  if(window.scrollY < 100){
+    labelDown.style.display = 'flex'
+  }
+
+})
