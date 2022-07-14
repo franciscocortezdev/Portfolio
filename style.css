@@ -12,6 +12,10 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* ---------------------- Nav -------------------------- */
 
 .Header {
@@ -59,7 +63,7 @@ body {
 .header-Profile {
   width: 100%;
 
-  padding: 200px 0 100px;
+  padding: 175px 0 100px;
   display: flex;
   justify-content: center;
 }
@@ -72,6 +76,7 @@ body {
   align-items: center;
   gap: 40px;
   margin: 0 20px;
+  position: relative;
 }
 
 .info-Name {
@@ -102,11 +107,42 @@ body {
 }
 
 .socialNetworks {
-  font-size: 50px;
+  font-size: 75px;
 }
 .socialIconLink {
   text-decoration: none;
   color: #fff;
+}
+
+#btnScrollDown {
+  font-size: 50px;
+  position: absolute;
+  bottom: 70px;
+  right: 0;
+  animation: ScrollDown 2s ease-in-out infinite;
+  opacity: 0.2;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+#btnScrollDown::after {
+  content: "Scroll Down";
+  font-size: 15px;
+  writing-mode: vertical-lr;
+  text-orientation: sideways;
+  letter-spacing: 2px;
+  font-family: "Poppins", sans-serif;
+}
+
+@keyframes ScrollDown {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(70px);
+    opacity: 1;
+  }
 }
 
 /* ---------------------- About -------------------------- */

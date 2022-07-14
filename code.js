@@ -1,5 +1,6 @@
 const form = document.querySelector('.contactForm')
 const emailBtn = document.querySelector('.emailBtn')
+const labelDown = document.getElementById('btnScrollDown')
 
 form.addEventListener('submit', (e) => {
   
@@ -9,6 +10,5 @@ form.addEventListener('submit', (e) => {
   
   emailBtn.click()
 })
-
 
 
