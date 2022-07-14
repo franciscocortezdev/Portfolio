@@ -50,11 +50,40 @@ html {
   color: #fff;
   font-size: 20px;
   font-weight: 600;
+  position: relative;
 }
 
-.Nav-li-Resume {
+.Nav-Link::before {
+  content: "";
+  height: 2px;
+  width: 0%;
+  background-color: #fff;
+  position: absolute;
+  bottom: -4px;
+  left: 50%;
+}
+
+.Nav-Link:hover::before {
+  animation: borderLink 0.3s ease-in-out forwards;
+}
+
+@keyframes borderLink {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+    left: 0;
+  }
+}
+
+.Nav-Link-Resume {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
   border: 2px solid #fff;
-  padding: 10px 20px;
+  padding: 8px 20px;
   border-radius: 6px;
 }
 
