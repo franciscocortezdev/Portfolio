@@ -67,6 +67,20 @@ html {
   animation: borderLink 0.3s ease-in-out forwards;
 }
 
+.navLinkCurrent {
+  position: relative;
+}
+.navLinkCurrent::before {
+  content: "";
+  height: 2px;
+  width: 0%;
+  background-color: #fff;
+  position: absolute;
+  bottom: -4px;
+  left: 50%;
+  animation: borderLink 0.3s ease-in-out forwards;
+}
+
 @keyframes borderLink {
   0% {
     width: 0%;
