@@ -123,7 +123,7 @@ html {
 }
 
 .info-Name {
-  font-size: 100px;
+  font-size: 98px;
   font-weight: 700;
 }
 
@@ -198,8 +198,10 @@ html {
   .profile-Info {
     background-color: blue;
   }
-}
+  
+} */
 
+/*
 @media screen and (max-width: 425px) {
   .profile-Info {
     background-color: tomato;
@@ -268,6 +270,15 @@ html {
   width: 100%;
   height: 100%;
   border-radius: 10px;
+}
+
+@media screen and (max-width: 900px) {
+  .aboutParagraph {
+    font-size: 16px;
+  }
+  .aboutContainer {
+    gap: 20px;
+  }
 }
 
 /* ---------------------- Projects -------------------------- */
