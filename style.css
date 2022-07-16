@@ -603,3 +603,15 @@ html {
 .emailBtn {
   display: none;
 }
+
+@media screen and (max-width: 900px) {
+  .socialEmail {
+    font-size: 20px;
+  }
+  .contactFormHead {
+    flex-direction: column;
+  }
+  .contactFormHead input {
+    width: 100%;
+  }
+}
