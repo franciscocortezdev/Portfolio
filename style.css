@@ -370,11 +370,6 @@ html {
 #projectBtnIcon {
   font-size: 25px;
 }
-@media screen and (max-width: 900px) {
-  .projectItem:nth-child(3) .projectDescription {
-    margin-bottom: 50px;
-  }
-}
 
 /* ---------------------- Skills -------------------------- */
 
