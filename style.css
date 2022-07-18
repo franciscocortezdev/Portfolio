@@ -40,13 +40,14 @@ html {
   width: 810px;
   height: 100px;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
-  margin: 0 20px;
+  margin: 0 20px 0 0;
 }
 
 .Nav-li {
   list-style: none;
+  margin-left: 20px;
 }
 
 .Nav-Link {
@@ -110,6 +111,12 @@ html {
     left: 0;
   }
 }
+@media screen and (max-width: 900px) {
+  .Nav-li {
+    list-style: none;
+    margin-left: 14px;
+  }
+}
 
 @media screen and (max-width: 768px) {
   .Nav-ul {
@@ -146,7 +153,7 @@ html {
 }
 
 .menuShow {
-  animation: MenuShow 0.3s ease-in-out forwards;
+  animation: MenuShow 0.2s ease-in-out forwards;
   pointer-events: all;
 }
 
