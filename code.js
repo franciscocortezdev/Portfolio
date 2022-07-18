@@ -3,6 +3,11 @@ const emailBtn = document.querySelector(".emailBtn");
 const labelDown = document.getElementById("btnScrollDown");
 const pageSections = document.querySelectorAll(".section");
 const linksMenu = document.querySelectorAll(".Nav-Link");
+const menuOpen = document.querySelector("#menuOpen");
+const Menu = document.querySelector(".Nav-ul")
+const menuClose = document.querySelector("#menuClose");
+
+
 
 // Form Contact
 form.addEventListener("submit", (e) => {
@@ -55,3 +60,13 @@ let link = document.querySelector(".aboutLink");
 pageSections.forEach((el) => {
   observer.observe(el);
 });
+
+// Menu nav open
+
+menuOpen.addEventListener("click", () => {
+  Menu.style.display = 'flex'
+})
+
+menuClose.addEventListener("click", () => {
+  Menu.style.display = 'none'
+})
