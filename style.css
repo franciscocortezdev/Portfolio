@@ -204,12 +204,33 @@ html {
   }
 }
 
-/* @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .profile-Info {
     background-color: blue;
   }
-  
-} */
+  .Nav-ul {
+    background-color: #444;
+    position: fixed;
+    right: 0;
+    top: 0;
+    margin: 0;
+    height: 100vh;
+    width: 50%;
+    flex-direction: column;
+    justify-content: space-evenly;
+    display: none;
+  }
+  #menuOpen {
+    display: block;
+    font-size: 40px;
+    margin: 0 20px;
+  }
+  .header-Nav {
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
 
 /*
 @media screen and (max-width: 425px) {
