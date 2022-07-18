@@ -6,7 +6,8 @@ const linksMenu = document.querySelectorAll(".Nav-Link");
 const menuOpen = document.querySelector("#menuOpen");
 const Menu = document.querySelector(".Nav-ul")
 const menuClose = document.querySelector("#menuClose");
-
+const NavMenu = document.querySelector(".header-Nav");
+var lastScroll = 0;
 
 
 // Form Contact
@@ -29,10 +30,23 @@ form.addEventListener("submit", (e) => {
 window.addEventListener("scroll", () => {
   if (window.scrollY > 100) {
     labelDown.style.display = "none";
+
+    //Animation of Nav Menu
+    let currentScroll = window.scrollY;
+    if (currentScroll > lastScroll) {
+      NavMenu.classList.remove("headerNavShow");
+      NavMenu.classList.add("headerNavHide");
+    } else {
+      NavMenu.classList.remove("headerNavHide");
+      NavMenu.classList.add("headerNavShow");
+    }
+    lastScroll = currentScroll;
   }
   if (window.scrollY < 100) {
     labelDown.style.display = "flex";
   }
+  
+
 });
 
 // Menu status

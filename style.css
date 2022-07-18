@@ -28,8 +28,16 @@ html {
   display: flex;
   justify-content: center;
   position: fixed;
+
   backdrop-filter: blur(8px);
   z-index: 100;
+  transition: top 0.5s ease-in-out;
+}
+.headerNavHide {
+  top: -100px;
+}
+.headerNavShow {
+  top: 0px;
 }
 .logoIMG {
   margin: 0 20px;
