@@ -64,9 +64,9 @@ pageSections.forEach((el) => {
 // Menu nav open
 
 menuOpen.addEventListener("click", () => {
-  Menu.style.display = 'flex'
+  Menu.classList.add("menuShow");
 })
 
 menuClose.addEventListener("click", () => {
-  Menu.style.display = 'none'
+  Menu.classList.remove("menuShow");
 })
