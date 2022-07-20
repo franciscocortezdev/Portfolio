@@ -280,6 +280,9 @@ html {
   .btnHireMe {
     padding: 6px 15px;
   }
+  #btnScrollDown {
+    font-size: 30px;
+  }
 }
 
 /* ---------------------- About -------------------------- */
