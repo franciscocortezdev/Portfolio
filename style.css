@@ -373,7 +373,7 @@ html {
   }
 
   .aboutPicture {
-    min-width: 300px;
+    min-width: 250px;
     height: 400px;
   }
 }
@@ -613,7 +613,7 @@ html {
 
 .educationTitle {
   position: relative;
-  font-size: 60px;
+  font-size: 50px;
   margin-bottom: 40px;
 }
 
@@ -622,10 +622,10 @@ html {
 
   background-color: #fff;
   height: 4px;
-  width: calc(100% - 330px);
+  width: calc(100% - 350px);
   position: absolute;
   top: 50%;
-  left: 330px;
+  left: 350px;
 }
 
 .educationName {
@@ -655,6 +655,28 @@ html {
   border: 4px solid #fff;
   border-radius: 8px;
   overflow: hidden;
+}
+
+@media screen and (max-width: 768px) {
+  .educationTitle {
+    font-size: 30px;
+    font-weight: 600;
+  }
+  .educationTitle::after {
+    height: 2px;
+    left: 220px;
+    width: calc(100% - 220px);
+  }
+  .educationName {
+    font-size: 20px;
+  }
+  .educationParagraph {
+    font-size: 16px;
+  }
+  .educationItem {
+    border: 2px solid #fff;
+    border-radius: 6px;
+  }
 }
 
 /* ---------------------- Contact -------------------------- */
