@@ -267,12 +267,20 @@ html {
   }
 }
 
-/*
-@media screen and (max-width: 425px) {
-  .profile-Info {
-    background-color: tomato;
+@media screen and (max-width: 768px) {
+  .info-Name {
+    font-size: 60px;
   }
-} */
+  .info-Description {
+    font-size: 20px;
+  }
+  .socialNetworks {
+    font-size: 50px;
+  }
+  .btnHireMe {
+    padding: 6px 15px;
+  }
+}
 
 /* ---------------------- About -------------------------- */
 
