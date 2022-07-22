@@ -33,7 +33,7 @@ window.addEventListener("scroll", () => {
 
     //Animation of Nav Menu
     let currentScroll = window.scrollY;
-    if (currentScroll > lastScroll) {
+    if (currentScroll > lastScroll && !Menu.classList.contains("menuShow")) {
       NavMenu.classList.remove("headerNavShow");
       NavMenu.classList.add("headerNavHide");
     } else {
