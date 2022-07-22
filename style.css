@@ -135,7 +135,7 @@ html {
 
 @media screen and (max-width: 768px) {
   .Nav-ul {
-    background-color: #444;
+    background-color: var(--darkBlue);
     position: fixed;
     right: 0;
     top: 0;
@@ -152,6 +152,7 @@ html {
     display: block;
     font-size: 40px;
     margin: 0 20px;
+    color: var(--green);
   }
   .header-Nav {
     height: 100px;
@@ -164,6 +165,7 @@ html {
     position: absolute;
     top: 30px;
     right: 20px;
+    color: var(--green);
   }
 }
 
@@ -295,11 +297,35 @@ html {
     font-size: 30px;
   }
 }
+@media screen and (max-width: 470px) {
+  .info-Name {
+    font-size: 40px;
+  }
+  .info-Description {
+    font-size: 15px;
+  }
+  .socialNetworks {
+    font-size: 40px;
+  }
+  .btnHireMe {
+    padding: 4px 10px;
+  }
+  .header-Profile {
+    padding-top: 150px;
+  }
+  #btnScrollDown {
+    font-size: 30px;
+    gap: 0;
+  }
+  #btnScrollDown::after {
+    font-size: 12px;
+  }
+}
 
 /* ---------------------- About -------------------------- */
 
 .about {
-  max-width: 1000px;
+  width: 1000px;
   padding: 100px 0;
   margin: 0 20px;
 }
@@ -307,7 +333,15 @@ html {
   width: 100%;
   display: flex;
   justify-content: center;
+  align-items: center;
   background-color: var(--gray);
+}
+.sectionBlue {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--darkBlue);
 }
 .sectionTitle {
   position: relative;
@@ -390,24 +424,16 @@ html {
     min-width: 250px;
     height: 400px;
   }
-  .about {
-    padding-top: 0;
-  }
 }
 
 /* ---------------------- Projects -------------------------- */
 
 .projects {
-  max-width: 1000px;
+  width: 1000px;
   padding: 100px 0;
   margin: 0 20px;
 }
-.sectionBlue {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  background-color: var(--darkBlue);
-}
+
 .projectsTitle {
   position: relative;
   font-size: 50px;
@@ -535,15 +561,12 @@ html {
     font-size: 16px;
     padding: 2px 5px;
   }
-  .projects {
-    padding-top: 0;
-  }
 }
 
 /* ---------------------- Skills -------------------------- */
 
 .skills {
-  max-width: 1000px;
+  width: 1000px;
 
   padding: 100px 0;
   margin: 0 20px;
@@ -630,15 +653,12 @@ html {
   #skillIcon {
     font-size: 80px;
   }
-  .skills {
-    padding-top: 0;
-  }
 }
 
 /* ---------------------- Education -------------------------- */
 
 .education {
-  max-width: 1000px;
+  width: 1000px;
 
   padding: 100px 0;
   margin: 0 20px;
@@ -713,15 +733,12 @@ html {
     border: 2px solid var(--green);
     border-radius: 6px;
   }
-  .education {
-    padding-top: 0;
-  }
 }
 
 /* ---------------------- Contact -------------------------- */
 
 .contact {
-  max-width: 1000px;
+  width: 1000px;
 
   padding: 100px 0;
   margin: 0 20px;
@@ -883,8 +900,5 @@ html {
   .contactFormMessage,
   .contactFormBtn {
     font-size: 16px;
-  }
-  .contact {
-    padding-top: 0;
   }
 }
