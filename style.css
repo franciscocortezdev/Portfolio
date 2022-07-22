@@ -710,7 +710,7 @@ html {
     font-size: 16px;
   }
   .educationItem {
-    border: 2px solid #fff;
+    border: 2px solid var(--green);
     border-radius: 6px;
   }
   .education {
@@ -731,12 +731,13 @@ html {
   position: relative;
   font-size: 50px;
   margin-bottom: 40px;
+  color: var(--darkBlue);
 }
 
 .contactTitle::after {
   content: "";
 
-  background-color: #fff;
+  background-color: var(--darkBlue);
   height: 4px;
   width: calc(100% - 400px);
   position: absolute;
@@ -754,13 +755,14 @@ html {
 .socialNetworksTitle {
   font-size: 30px;
   font-weight: 600;
+  color: var(--darkBlue);
 }
 
 .socialEmail {
   font-size: 25px;
   font-weight: 500;
   text-decoration: none;
-  color: #fff;
+  color: var(--darkBlue);
   display: block;
   margin-bottom: 20px;
 }
@@ -771,7 +773,7 @@ html {
 
 #ContactIcon {
   font-size: 40px;
-  color: #fff;
+  color: var(--darkBlue);
 }
 .contactSocial {
   width: 50%;
@@ -805,10 +807,11 @@ html {
   font-weight: 600;
   padding: 4px 10px;
   border-radius: 6px;
-  background-color: #fff;
-  color: #21acf8;
+  background-color: var(--green);
+  color: var(--darkBlue);
   border: none;
   outline: none;
+  border: 2px solid var(--darkBlue);
 }
 
 .contactFormName::placeholder,
@@ -816,7 +819,7 @@ html {
 .contactFormSubject::placeholder,
 .contactFormMessage::placeholder,
 .contactFormBtn::placeholder {
-  color: #21acf8;
+  color: var(--darkBlue);
 }
 
 .contactFormMessage {
