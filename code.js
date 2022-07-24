@@ -53,7 +53,7 @@ window.addEventListener("scroll", () => {
 
 let options = {
   rootMargin: "0px",
-  threshold: 0.4,
+  threshold: 0.3,
 };
 const handleMenu = (entries) => {
   entries.forEach((entry) => {
