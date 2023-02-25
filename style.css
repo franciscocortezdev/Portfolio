@@ -355,10 +355,10 @@ html {
 
   background-color: var(--darkBlue);
   height: 4px;
-  width: calc(100% - 350px);
+  width: calc(100% - 375px);
   position: absolute;
   top: 50%;
-  left: 350px;
+  left: 375px;
 }
 
 .aboutContainer {
@@ -411,8 +411,8 @@ html {
     font-weight: 600;
   }
   .sectionTitle::after {
-    left: 210px;
-    width: calc(100% - 210px);
+    left: 225px;
+    width: calc(100% - 225px);
     height: 2px;
   }
   .aboutContainer {
@@ -445,10 +445,10 @@ html {
 
   background-color: var(--green);
   height: 4px;
-  width: calc(100% - 300px);
+  width: calc(100% - 375px);
   position: absolute;
   top: 50%;
-  left: 300px;
+  left: 375px;
 }
 
 .projectsContainer {
@@ -525,8 +525,8 @@ html {
   }
   .projectsTitle::after {
     height: 2px;
-    left: 190px;
-    width: calc(100% - 190px);
+    left: 250px;
+    width: calc(100% - 250px);
   }
   .projectsContainer {
     flex-direction: column;
@@ -583,10 +583,10 @@ html {
 
   background-color: var(--darkBlue);
   height: 4px;
-  width: calc(100% - 220px);
+  width: calc(100% - 425px);
   position: absolute;
   top: 50%;
-  left: 220px;
+  left: 425px;
 }
 
 .skillsContainer {
@@ -632,8 +632,8 @@ html {
   }
   .skillsTitle::after {
     height: 2px;
-    left: 150px;
-    width: calc(100% - 150px);
+    left: 275px;
+    width: calc(100% - 275px);
   }
   .skillsItem:nth-child(1) {
     margin-bottom: 0;
@@ -675,10 +675,10 @@ html {
 
   background-color: var(--green);
   height: 4px;
-  width: calc(100% - 350px);
+  width: calc(100% - 400px);
   position: absolute;
   top: 50%;
-  left: 350px;
+  left: 400px;
 }
 
 .educationName {
@@ -719,8 +719,8 @@ html {
   }
   .educationTitle::after {
     height: 2px;
-    left: 220px;
-    width: calc(100% - 220px);
+    left: 250px;
+    width: calc(100% - 250px);
   }
   .educationName {
     font-size: 20px;
@@ -755,10 +755,10 @@ html {
 
   background-color: var(--darkBlue);
   height: 4px;
-  width: calc(100% - 400px);
+  width: calc(100% - 450px);
   position: absolute;
   top: 50%;
-  left: 400px;
+  left: 450px;
 }
 
 .contactContainer {
@@ -872,8 +872,8 @@ html {
   }
   .contactTitle::after {
     height: 2px;
-    left: 250px;
-    width: calc(100% - 250px);
+    left: 300px;
+    width: calc(100% - 300px);
   }
   .contactContainer {
     flex-direction: column-reverse;
